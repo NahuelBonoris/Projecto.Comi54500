@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*  nav  */
+nav{
+    background-color: #b59d60;
+    z-index: 3;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    border: 2px solid #6f1212;
+    border-radius: 2px;
+    margin: 7px;
+}
+
+a{
+    text-decoration: none;
+    color: #6f1212;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
+
+.contenedor¨{
+    width: 80%;
+}
+
+/*  body  */
+body{
+    background-color: #ebe0c3;
+}
+
+.img-noticias{
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    
+}
+
+.img-noticias img{
+    width: 100%;
+    height: 600px;
+
+}
+
+.img-noticias p{
+    text-align: center;
+}
+
+p{
+   color: #910a0a;
+   font-family: 'Lato', sans-serif;
+   font-size: 20px;
+}
+
+h1{
+    color: #000000;
+   font-family: 'Lato', sans-serif;
+   font-size: 32px;
+}
+
+h2{
+    color: #000000;
+   font-family: 'Lato', sans-serif;
+   font-size: 24px;
+}
+
+h3{
+    color: #000000;
+   font-family: 'Lato', sans-serif;
+   font-size: 24px;
+
+}
+
+.destacados img{
+    display: inline-block;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    max-width: 70%;
+}
+
+/*  personajes  */
+
+.pp img{
+    width: 250px;
+    height: 250px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.ps img{
+    width: 250px;
+    height: 250px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.losh {
+    padding-top: 20px;
+    padding-bottom: 10spx;
+}
+
+.nombreperh{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.main{
+    width: 70%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/*  dragones  */
+
+.clases_dragones p {
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.clases_dragones img{
+    width: 150px;
+    height: 150px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.libroD {
+    width: 600px;
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*no funciona para poner el texto al costado 
+.LibroDtext{
+    display: flex;
+    width: 49%;
+}
+*/
+
+/*peli*/
+
+.img-peli{
+    width: 75%;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.grupos-tribus{
+    width: 200px;
+    height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*footer*/
+
+footer{
+    background-color: #a1894c;
+    padding: 25px 0;
+}
+
+.separacion-footer{
+    padding: 5px;
+}
+
